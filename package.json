@@ -1,7 +1,7 @@
 {
   "name": "bs-wasm-x25519",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Łukasz Kurowski <crackcomm@gmail.com>",
   "license": "BSD-3-Clause",
   "main": "src/x25519.bs.js",
