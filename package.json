@@ -1,0 +1,26 @@
+{
+  "name": "bs-wasm-x25519",
+  "type": "module",
+  "version": "0.0.1",
+  "author": "Łukasz Kurowski <crackcomm@gmail.com>",
+  "license": "BSD-3-Clause",
+  "main": "src/x25519.bs.js",
+  "scripts": {
+    "clean": "bsb -clean",
+    "clean:all": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript",
+    "X25519",
+    "WASM"
+  ],
+  "devDependencies": {
+    "bs-platform": "^8.3.1",
+    "gentype": "^3.37.0"
+  },
+  "dependencies": {
+    "wasm-x25519": "^0.1.2"
+  }
+}

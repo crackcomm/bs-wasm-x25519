@@ -1,0 +1,27 @@
+{
+  "name": "bs-wasm-x25519",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "es6-global",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [],
+  "namespace": true,
+  "gentypeconfig": {
+    "language": "untyped",
+    "shims": {},
+    "exportInterfaces": true,
+    "namespace": true,
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+  }
+}
